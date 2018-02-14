@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://files.fbcoverstreet.com/content/fEULv5BNQ44avaEhRaA537g1I5B8wk8vtE8bI2RqhxyswwCvlhHSPokhhcD13Cap.jpg');
+      background-size: cover;
+      color: yellow;
+    }
+    a {
+      color: red ;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid blue;
+      border-radius: 20px;
+    }
+    body {
+      background: black;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      color:  white;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    img{
+    width:300;
+    border-radius:200;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/9b/8e/ce/9b8ecef8ffbf92fcbefccf63ba6060a4.jpg">
+    
+    
+    <h1>Reba's Blog</h1>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Barack_Obama">About Me</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Adolf_Hitler">bad example</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Donald_Trump">Worst example</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Life</h2>
+    <p>during my years as a kid life was scary i didnt know what to call the world or how to view it many people have tried to make my dreams for me  but i always viewed one the same.Cant be changed for anything</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>a Trip</h2>
+    <p>The influences of people can immediately change a person its like a quick flip of a persons life and personality,its a trip to be hurt by this my first option </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>jokes</h2>
+    <p>everyday we seem to find ourself in one big joke but waling to the plot is a stretch for some but we all soon find a door leading to the end of it and realize.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("like!");
+    });
+  </script>
+</body>
+`0000000
